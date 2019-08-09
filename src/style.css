@@ -1,0 +1,414 @@
+aside {
+  position: fixed;
+  display: flex;
+  left: 20px;
+  width: 96%;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+@font-face {
+  font-family: "Avant Garde CE";
+  src: url("/fonts/AGW.ttf") format("woff2"), url("/fonts/AGW.ttf") format("woff2");
+}
+div, p, a, img, form, button {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+footer {
+  height: 140px;
+  width: 100%;
+  box-shadow: 0 0 4px rgba(255, 255, 255, 0.75);
+  background-image: linear-gradient(0deg, #000000 0%, #45494d 100%);
+  border: 3px solid;
+  outline: black dotted;
+  padding-top: 4px;
+  position: relative;
+  top: 3px;
+}
+
+footer img {
+  margin-left: 13%;
+  margin-bottom: 1%;
+}
+
+.menu-container {
+  position: relative;
+  display: flex;
+  flex-flow: column;
+  margin-left: -4%;
+}
+
+.menu-container ul li a:hover {
+  color: #4096ee;
+}
+
+.menu-container ul li a:active {
+  color: #ee57c8;
+}
+
+footer .headers {
+  color: #faed75;
+  position: relative;
+  left: 17%;
+  margin-bottom: -8%;
+}
+
+footer .menu-container img {
+  margin-left: -1%;
+}
+
+.footer-contant {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header {
+  background-image: linear-gradient(0deg, #000000 0%, #45494d 100%);
+  border: 1px solid;
+  height: 30px;
+  max-width: 100%;
+  margin: -10px 0 0 -10px;
+  font-size: 14px;
+  font-family: Calibri, serif;
+}
+
+.log-regist {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 100%;
+  padding-right: 3%;
+}
+
+.log-regist a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.space {
+  width: 13%;
+}
+
+.log-regist a:hover {
+  color: #99008e;
+}
+
+.log-regist a:active {
+  color: #007e99;
+}
+
+header p {
+  color: #ffffff;
+  margin: 0 10px;
+}
+
+main {
+  background-color: #fafafa;
+  border: 1px solid #e2e1e1;
+  z-index: 0;
+  width: 85%;
+  margin-left: 7.079%;
+}
+
+.shopping {
+  display: flex;
+  justify-content: space-around;
+}
+
+.shopping img {
+  height: 120px;
+  margin-bottom: 3%;
+}
+
+main figure {
+  position: relative;
+  height: 45px;
+  left: -50px;
+  margin-bottom: 20px;
+}
+
+main figure img {
+  position: absolute;
+}
+
+main figure .text {
+  position: relative;
+  font-size: 18px;
+  line-height: 59px;
+  color: #fafafa;
+  font-family: "Calibri", serif;
+  left: 25px;
+  top: -15px;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+main .block {
+  margin-bottom: 20px;
+}
+
+.content {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+main .text {
+  width: 220px;
+  height: 99px;
+  font-size: 16px;
+  line-height: 22px;
+  color: #555555;
+  font-family: "Calibri", serif;
+  margin-left: 13px;
+}
+
+main .block .heading {
+  font-size: 20px;
+  line-height: 59px;
+  color: #555555;
+  font-family: "Calibri", serif;
+}
+
+.horizont-line {
+  width: 100%;
+  margin-top: 5%;
+  margin-bottom: 3%;
+  overflow: hidden;
+}
+
+.bottom-icons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: -2%;
+  height: 125px;
+}
+
+.bottom-icons .content-icons {
+  padding-left: 3%;
+  height: 50px;
+}
+
+.content-icons i {
+  position: relative;
+  font-size: 50px;
+  margin-top: 9%;
+}
+
+.content-icons i:hover {
+  color: #4096ee;
+  cursor: pointer;
+}
+
+.bottom-icons .content-icons .heading {
+  position: relative;
+  font-size: 18px;
+  color: #343434;
+  font-family: "Calibri", serif;
+  margin-left: 25%;
+  bottom: 50px;
+}
+
+.bottom-icons .content-icons .text {
+  position: relative;
+  font-size: 12px;
+  color: #343434;
+  font-family: "Arial", serif;
+  left: 20%;
+  top: -95%;
+}
+
+.bottom-icons img {
+  height: 70%;
+  align-items: center;
+  margin-left: -10%;
+  margin-right: -3%;
+}
+
+nav {
+  position: relative;
+  left: 7%;
+  top: -35px;
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(0deg, #141414 0%, #494b4d 100%);
+  border: 1px solid #ffffff;
+  height: 30px;
+  width: 85%;
+}
+
+nav a {
+  color: #ffffff;
+  padding-left: 25px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #969935;
+  cursor: pointer;
+}
+
+nav a:active {
+  color: #007e99;
+}
+
+.slider {
+  display: flex;
+  box-shadow: 0.5px 0.866px 2px rgba(50, 50, 50, 0.57);
+  background-color: #eeeeee;
+  border: 1px solid #ffffff;
+  max-width: 84.95%;
+  margin-left: 7.08%;
+  margin-top: -35px;
+}
+
+.headline {
+  font-size: 42px;
+  line-height: 51px;
+  color: #333333;
+  font-family: "Avant Garde CE", serif;
+  max-width: 100%;
+  margin-right: 0;
+}
+
+.slider-content {
+  max-width: 50%;
+  margin: 2% 4% 4% 3%;
+}
+
+.class1 {
+  position: absolute;
+  border: 6px solid;
+  z-index: 3;
+  top: 55px;
+  left: 40px;
+}
+
+.class2 {
+  position: absolute;
+  border: 5px solid white;
+  z-index: 3;
+  top: 45px;
+  left: 55px;
+}
+
+.class3 {
+  position: absolute;
+  border: 5px solid #f1f1f1;
+  z-index: 3;
+  top: 35px;
+  left: 70px;
+}
+
+.slider-content p {
+  max-width: 100%;
+  margin-right: 0;
+}
+
+.register-button {
+  background-color: #4096ee;
+  border: 1px solid rgba(250, 250, 250, 0.4);
+  font-size: 24px;
+  line-height: 24px;
+  color: #ffffff;
+  font-family: serif;
+  font-weight: bold;
+  border-radius: 5px;
+  width: 25%;
+  height: 12%;
+  margin-left: 65%;
+  outline: none;
+}
+
+.register-button:hover {
+  color: black;
+  background-color: #39800b;
+}
+
+.register-button:active {
+  color: #ffffff;
+  background-color: #8eaeff;
+}
+
+.seperation-line {
+  color: grey;
+  margin: 1% 0;
+}
+
+.slider-images-container {
+  position: relative;
+  width: 35%;
+  height: inherit;
+  left: 5%;
+}
+
+.slider-images {
+  width: 400px;
+  height: 75%;
+  margin: auto;
+  position: relative;
+}
+
+.circle-buttons-container {
+  position: absolute;
+  left: 45%;
+  margin-right: -50%;
+  transform: translate(-50%, 0%);
+  top: 75%;
+}
+
+.circleButton1 {
+  background-color: #f6ce49;
+  border: 1px solid #ffffff;
+  outline: none;
+  border-radius: 18px;
+  width: 16px;
+  margin: 0 4px;
+  height: 16px;
+}
+
+.circleButton2, .circleButton3 {
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  outline: none;
+  border-radius: 18px;
+  width: 16px;
+  margin: 0 4px;
+  height: 16px;
+}
+
+.banner {
+  position: relative;
+  left: 7%;
+  display: flex;
+  justify-content: end;
+  width: 85%;
+  z-index: -10;
+}
+
+.banner .figure {
+  position: relative;
+  left: 0;
+  max-width: 30%;
+}
+
+/*# sourceMappingURL=style.css.map */

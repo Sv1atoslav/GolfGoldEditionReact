@@ -1,0 +1,124 @@
+.slider {
+  display: flex;
+  box-shadow: 0.5px 0.866px 2px rgba(50, 50, 50, 0.57);
+  background-color: #eeeeee;
+  border: 1px solid #ffffff;
+  max-width: 84.95%;
+  margin-left: 7.08%;
+  margin-top: -35px;
+}
+
+.headline {
+  font-size: 42px;
+  line-height: 51px;
+  color: #333333;
+  font-family: "Avant Garde CE", serif;
+  max-width: 100%;
+  margin-right: 0;
+}
+
+.slider-content {
+  max-width: 50%;
+  margin: 2% 4% 4% 3%;
+}
+
+.class1 {
+  position: absolute;
+  border: 6px solid;
+  z-index: 3;
+  top: 55px;
+  left: 40px;
+}
+
+.class2 {
+  position: absolute;
+  border: 5px solid rgb(255, 255, 255);
+  z-index: 3;
+  top: 45px;
+  left: 55px;
+}
+
+.class3 {
+  position: absolute;
+  border: 5px solid rgb(241, 241, 241);
+  z-index: 3;
+  top: 35px;
+  left: 70px;
+}
+
+.slider-content p {
+  max-width: 100%;
+  margin-right: 0;
+}
+
+.register-button {
+  background-color: #4096ee;
+  border: 1px solid rgba(250, 250, 250, 0.4);
+  font-size: 24px;
+  line-height: 24px;
+  color: #ffffff;
+  font-family: serif;
+  font-weight: bold;
+  border-radius: 5px;
+  width: 25%;
+  height: 12%;
+  margin-left: 65%;
+  outline: none;
+}
+
+.register-button:hover {
+  color: black;
+  background-color: #39800b;
+}
+
+.register-button:active {
+  color: #ffffff;
+  background-color: #8eaeff;
+}
+
+.seperation-line {
+  color: grey;
+  margin: 1% 0;
+}
+
+.slider-images-container {
+  position: relative;
+  width: 35%;
+  height: inherit;
+  left: 5%;
+}
+
+.slider-images {
+  width: 400px;
+  height: 75%;
+  margin: auto;
+  position: relative;
+}
+
+.circle-buttons-container {
+  position: absolute;
+  left: 45%;
+  margin-right: -50%;
+  transform: translate(-50%, 0%);
+  top: 75%;
+}
+
+.circleButton1 {
+  background-color: #f6ce49;
+  border: 1px solid #ffffff;
+  outline: none;
+  border-radius: 18px;
+  width: 16px;
+  margin: 0 4px;
+  height: 16px;
+}
+
+.circleButton2, .circleButton3 {
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  outline: none;
+  border-radius: 18px;
+  width: 16px;
+  margin: 0 4px;
+  height: 16px;
+}
