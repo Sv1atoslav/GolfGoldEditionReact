@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "Avant Garde CE";
+  src: url("/fonts/AGW.ttf") format("woff2"),
+  url("/fonts/AGW.ttf") format("woff2");
+}
+
+div, p, a, img, form, button {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}

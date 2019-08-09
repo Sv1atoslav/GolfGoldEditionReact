@@ -1,0 +1,39 @@
+header {
+  background-image: linear-gradient(0deg, #000000 0%, #45494d 100%);
+  border: 1px solid;
+  height: 30px;
+  max-width: 100%;
+  margin: -10px 0 0 -10px;
+  font-size: 14px;
+  font-family: Calibri, serif;
+}
+
+.log-regist {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 100%;
+  padding-right: 3%;
+}
+
+.log-regist a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.space {
+  width: 13%;
+}
+
+.log-regist a:hover {
+  color: #99008e;
+}
+
+.log-regist a:active {
+  color: #007e99;
+}
+
+header p {
+  color: #ffffff;
+  margin: 0 10px;
+}

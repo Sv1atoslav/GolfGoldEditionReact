@@ -23,36 +23,36 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div className="menu-container">
-                        <p className="headers">Membership</p>
+                        <p className="headers">Tournaments</p>
                         <ul>
                             <li>
                                 <img src={require('../../assets/footer/footerline.png')} style={{width: '200px'}} alt="Image  ot found"/>
                             </li>
                             <li>
-                                <a href="#">Individual</a>
+                                <a href="#">Events</a>
                             </li>
                             <li>
-                                <a href="#">Society</a>
+                                <a href="#">Sign-up</a>
                             </li>
                             <li>
-                                <a href="#">Golf Clubs</a>
+                                <a href="#">Corporate days</a>
                             </li>
                         </ul>
                     </div>
                     <div className="menu-container">
-                        <p className="headers">Membership</p>
+                        <p className="headers">E-magazine</p>
                         <ul>
                             <li>
                                 <img src={require('../../assets/footer/footerline.png')} style={{width: '200px'}} alt="Image  ot found"/>
                             </li>
                             <li>
-                                <a href="#">Individual</a>
+                                <a href="#">Tournament news</a>
                             </li>
                             <li>
-                                <a href="#">Society</a>
+                                <a href="#">Travel offers</a>
                             </li>
                             <li>
-                                <a href="#">Golf Clubs</a>
+                                <a href="#">Advertising</a>
                             </li>
                         </ul>
                     </div>

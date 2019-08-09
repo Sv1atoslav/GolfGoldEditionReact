@@ -1,0 +1,26 @@
+nav {
+  position: relative;
+  left: 7%;
+  top: -35px;
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(0deg, #141414 0%, #494b4d 100%);
+  border: 1px solid #ffffff;
+  height: 30px;
+  width: 85%;
+}
+
+nav a {
+  color: #ffffff;
+  padding-left: 25px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #969935;
+  cursor: pointer;
+}
+
+nav a:active {
+  color: #007e99;
+}
